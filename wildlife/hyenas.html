@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head><title>Wildlife Sancuatry</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+    <body>
+        <header>
+            <img src="logo.png" alt="LOGO" style="width:883px"; height="200px">
+        
+
+
+            <div>
+        <nav>
+            <ul class="nav_links" id="nav_links">
+                <a href="#Home">Home</a>                
+                <a href="#About us">About us</a>
+                <a href="#Get Involved">Get Involved</a>
+                <a href="#Animals">Animals</a>
+                     <select id="animals"  onchange="navigateToPage()">
+                    <option value="Elephant.html">Elephant</option>
+                    <option value="Cheetah.html">Cheetah</option>
+                    <option value="black-backed jackal.html">black-backed jackal</option>
+                    <option value="warthog.html">warthog</option>
+                    <option value="bat-eared foxes.html">bat-eard foxes</option>
+                    <option value="dik-diks.html">dik-diks</option>
+                    <option value="hyenas.html">hyenas</option>
+                    <option value="birds.html">birds</option>
+                    </select></a>
+
+                    <script>
+                        function navigateToPage() {
+                            const dropdown = document.getElementById("animals");
+                            const selectedValue = dropdown.value;
+                            if (selectedValue) {
+                                window.location.href = selectedValue;
+                            }
+                        }
+                    </script>
+            
+
+</nav></header><main>
+<table><tr><td>
+<div class ="main-content">
+    <div class="image-container">
+    <img src="hyena-name-generator.png" alt="Animal" style="width:735px; height:490px;"></div></div></td>
+    <td>
+<div class="content">
+    <p>There are two species of hyenas in Kenya-the stripped hyena and  the spotted hyena.
+        They can be found throughout Africa ,in all habitats except rainforests.</p>
+        The spotted hyena(also called the laughing hyena)is the largest hyena species ,with the females being larger than males.
+        Their coats are patterned with darkspots.These</p>
+        animals hunt fish,birds,and even hippo calves, and work in packs to take down wildebeests or antelopes.</p>
+        Stripped hyenas are lesser known than their spotted cousins.They are more scavengers than hunters and typicaly 
+        come out at night to feed on carcasses left by other animals.
+        The spotted hyena is listed by the IUCN as least concern,and the stripped hyena is near threatened .Human wildlife conflict is the main threat in their survival .
+    </p>
+</div></div></div></td></tr></table></main>
+    <footer><p>
+        Lets work to conserve wildlife
+    </p></footer>
+    </body>
+    </html>

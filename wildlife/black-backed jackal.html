@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head><title>Wildlife Sancuatry</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+    <body>
+        <header>
+            <img src="logo.png" alt="LOGO" style="width:883px"; height="200px"
+        
+
+
+            
+        <nav>
+            <ul class="nav_links" id="nav_links">
+                <a href="#Home">Home</a>                           
+                <a href="#About us">About us</a>
+                <a href="#Get Involved">Get Involved</a>
+                <a href="#Animals">Animals</a>
+                    
+                    <select id="animals" onchange="navigateToPage()">
+                    <option value="Elephant.html">Elephant</option>
+                    <option value="Cheetah.html">Cheetah</option>
+                    <option value="black-backed jackal.html">black-backed jackal</option>
+                    <option value="warthog.html">warthog</option>
+                    <option value="bat-eared foxes.html">bat-eared foxes</option>
+                    <option value="dik-diks.html">dik-diks</option>
+                    <option value="hyenas.html">hyenas</option>
+                    <option value="birds.html">birds</option>
+                    </select></a>
+
+                    <script>
+                        function navigateToPage() {
+                            const dropdown = document.getElementById("animals");
+                            const selectedValue = dropdown.value;
+                            if (selectedValue) {
+                                window.location.href = selectedValue;
+                            }
+                        }
+                    </script>
+            
+
+</nav></header><main>
+<table><tr><td>
+<div class ="main-content">
+    <div class="image-container">
+    <img src="IMG-20250304-WA0016.jpg" alt="Animal" style="width:735px; height:490px;"></div></div></td>
+    <td>
+<div class="content">
+    <p>The black-backed jackal is a member of the dog family.It has a rusty red coat with a black patch on its back and a black-tipped tail.
+        It measures around 95 centimetres (37 inches)from head to tail.
+        As oppurtunistic omnivores ,jackals eat what they can. They work in family packs to hunt small antelopes,but they'll also feed on reptiles ,insects
+        birds,fruits,berries and carcasses left by larger predators.</p><p>
+        There are two distinct populations of black-backed jackals in Africa -one in Est Africa in countries including Kenya,Ethiopia,
+        and Tanzania, and one in southern Africa,in countries including Namibia,Angola,and South Africa.</p>
+        These animals live in a wide variety of habitats ,from deserts to grasslands to savannahs The IUCN lists black-backed jackalsas least concern,meaning they face few
+        threats.However,they are hunted by farmers who kill them to protect their livestock.</p>
+</div></div></div></td></tr></table></main>
+    <footer><p>
+        Lets work to conserve wildlife
+    </p></footer>
+    </body>
+    </html>

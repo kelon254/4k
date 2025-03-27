@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head><title>Wildlife Sancuatry</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+    <body>
+        <header>
+            <img src="logo.png" alt="LOGO" style="width:883px"; height="200px">
+        
+
+
+            <div>
+        <nav>
+            <ul class="nav_links" id="nav_links">
+                <a href="#Home">Home</a>                
+                <a href="#About us">About us</a>
+                <a href="#Get Involved">Get Involved</a>
+                <a href="#Animals">Animals</a>
+                    <select id="animals" onchange="navigateToPage()">
+                    <option value="Elephant.html">Elephant</option>
+                    <option value="Cheetah.html">Cheetah</option>
+                    <option value="black-backed jackal.html">black-backed jackal</option>
+                    <option value="warthog.html">warthog</option>
+                    <option value="bat-eared foxes.html">bat-eard foxes</option>
+                    <option value="dik-diks.html">dik-diks</option>
+                    <option value="hyenas.html">hyenas</option>
+                    <option value="birds.html">birds</option>
+                    </select></a>
+
+                    <script>
+                        function navigateToPage() {
+                            const dropdown = document.getElementById("animals");
+                            const selectedValue = dropdown.value;
+                            if (selectedValue) {
+                                window.location.href = selectedValue;
+                            }
+                        }
+                    </script>
+            
+
+</nav></header><main>
+<table><tr><td>
+<div class ="main-content">
+    <div class="image-container">
+    <img src="IMG-20250304-WA0013.jpg" alt="Animal" style="width:735px; height:490px;"></div></div></td>
+    <td>
+<div class="content">
+    <p> The dik-dik is a type of dwarw antelope that lives in arid regions of East Africa.They can live
+        in such barren environments because they get water from the vegetation they eat. They also take cover 
+        in undergrowth to protect themselves from predators,including eagles and cats.</p> There are four species of
+        dik-diks,but just two of them live in kenya. This include guenthers dik-dik and kirks dik-dik is the largest dik-dik,though 
+        it's still small in comparison to other antelopes.It stands at just 45 centimetres (18 inches)tall and weighs only 7.2 kilograms
+        (15.8 pounds).Guenther's dik-dik is small but has a longer snout.</p>
+        The IUCN list both kirks dik-dik and guethers dik-dik as least concern,though they are threatened by expanding
+        agricultural settlements and excessive hunting in some areas
+    </p>
+</div></div></div></td></tr></table></main>
+    <footer><p>
+        Lets work to conserve wildlife
+    </p></footer>
+    </body>
+    </html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head><title>Wildlife Sancuatry</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+    <body>
+        <header>
+            <img src="logo.png" alt="LOGO" style="width:883px"; height="200px">
+        
+
+
+            <div>
+        <nav>
+            <ul class="nav_links" id="nav_links">
+                <a href="#Home">Home</a>                
+                <a href="#About us">About us</a>
+                <a href="#Get Involved">Get Involved</a>
+                <a href="#Animals">Animals</a>
+                     <select id="animals"  onchange="navigateToPage()">
+                    <option value="Elephant.html">Elephant</option>
+                    <option value="Cheetah.html">Cheetah</option>
+                    <option value="black-backed jackal.html">black-backed jackal</option>
+                    <option value="warthog.html">warthog</option>
+                    <option value="bat-eared foxes.html">bat-eard foxes</option>
+                    <option value="dik-diks.html">dik-diks</option>
+                    <option value="hyenas.html">hyenas</option>
+                    <option value="birds.html">birds</option>
+                    </select></a>
+
+                    <script>
+                        function navigateToPage() {
+                            const dropdown = document.getElementById("animals");
+                            const selectedValue = dropdown.value;
+                            if (selectedValue) {
+                                window.location.href = selectedValue;
+                            }
+                        }
+                    </script>
+            
+
+</nav></header><main>
+<table><tr><td>
+<div class ="main-content">
+    <div class="image-container">
+    <img src="hyena-name-generator.png" alt="Animal" style="width:735px; height:490px;">
+    
+</div></div></td>
+    <td>
+<div class="content">
+    <p>An increadible 25% of world biodiversity is found in Africa-kenya ,on the eastern coast of the African continent,is one of
+        the most ten biodiverse countries on earth.
+        According to recent estimates kenya is a home to 25000 animal species including many large mammals,7,000 plant species abandoned
+        2,000 fungi and bacteria species.These species thrive in kenya's rich array ecosystem from forest and savannah to the snow cappped
+        peaks Mount kenya and arid scrublands.They are plenty of acquatic habitats in kenya both along the coast and inland.Kenya
+        is home to 476  inland lake and wet habitat,which support a diverse selection of wildlife and animals.
+</div></div></div></td></tr></table></main>
+    <footer><p>
+        Lets work to conserve wildlife
+    </p></footer>
+    </body>
+    </html>

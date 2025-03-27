@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head><title>Wildlife Sancuatry</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+    <body>
+        <header>
+            <img src="logo.png" alt="LOGO" style="width:883px"; height="200px" >
+        
+
+
+            <div>
+        <nav>
+            <ul class="nav_links" id="nav_links">
+               <a href="#Home">Home</a>               
+                <a href="#About us">About us</a>
+                <a href="#Get Involved">Get Involved</a>
+                <a href="#Animals">Animals</a>
+                     <select id="animals" onchange="navigateToPage()">
+                    <option value="Elephant.html">Elephant</option>
+                    <option value="Cheetah.html">Cheetah</option>
+                    <option value="black-backed jackal.html">black-backed jackal</option>
+                    <option value="warthog.html">warthog</option>
+                    <option value="bat-eared foxes.html">bat-eared foxes</option>
+                    <option value="dik-diks.html">dik-diks</option>
+                    <option value="hyenas.html">hyenas</option>
+                    <option value="birds.html">birds</option>
+                    </select></a>
+
+                
+                    <script>
+                        function navigateToPage() {
+                            const dropdown = document.getElementById("animals");
+                            const selectedValue = dropdown.value;
+                            if (selectedValue) {
+                                window.location.href = selectedValue;
+                            }
+                        }
+                    </script>
+
+</nav></header><main>
+<table><tr><td>
+<div class ="main-content">
+    <div class="image-container">
+    <img src="warthog.jpg" alt="Animal" style="width:735px; height:490px;"></div></div></td>
+    <td>
+<div class="content">
+    <p>The deseart warthog is a member of the pig family.It has a large warty head,a coarse mane and two pair of tasks.
+        unlike the common warthog,which can be found acrosss most of africa,the deseart warthog only lives in Kenya,Ethiopia and Somalia.
+        It lives in savannah and shrublands habitats,where it feeds on grass and other vegetation and uses abandoned aardvark
+        burrows as a place for shelter.</p>
+        The deseart warthog is listed by IUCN as aleast concern.However,the population faces several risks in kenya,including growing humans and livestock numbers
+        This increases competiton for both water and food.
+    </p>
+</div></div></div></td></tr></table></main>
+    <footer><p>
+        Lets work to conserve wildlife
+    </p></footer>
+    </body>
+    </html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head><title>Wildlife Sancuatry</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+    <body>
+        <header>
+            <img src="logo.png" alt="LOGO" style="width:883px"; height="200px">
+        
+
+
+            
+        <nav>
+            <ul class="nav_links" id="nav_links">
+                <a href="#Home">Home</a>                
+                <a href="#About us">About us</a>
+                <a href="#Get Involved">Get Involved</a>
+                <a href="#Animals">Animals</a>
+                     <select id="animals" onchange="navigateToPage()">
+                    <option value="Elephant.html">Elephant</option>
+                    <option value="Cheetah.html">Cheetah</option>
+                    <option value="black-backed jackal.html">black-backed jackal</option>
+                    <option value="warthog.html">warthog</option>
+                    <option value="bat-eared foxes.html">bat-eared foxes</option>
+                    <option value="dik-diks.html">dik-diks</option>
+                    <option value="hyenas.html">hyenas</option>
+                    <option value="birds.html">birds</option>
+                    </select></a>
+
+                    <script>
+                        function navigateToPage() {
+                            const dropdown = document.getElementById("animals");
+                            const selectedValue = dropdown.value;
+                            if (selectedValue) {
+                                window.location.href = selectedValue;
+                            }
+                        }
+                    </script>
+            
+
+</nav></header><main>
+<table><tr><td>
+<div class ="main-content">
+    <div class="image-container">
+    <img src="IMG-20250304-WA0014.jpg" alt="Animal" style="width:735px; height:490px;"></div></div></td>
+    <td>
+<div class="content">
+    <p>The African savannah elephant is the world largest land mammal.It lives across many different habitats
+        ,including open savannahs,deserts,and forests.As these animals roam they play an important role within their ecosystem.
+        They disperse seeds through their dung,helping to fertilise the land;they clear their paths through vegetation 
+        and overgrown bush, promoting plant diversity;and they use their tusks and feet to access water in dry riverbeds
+        ,creating small watering holes for other animals.
+        African savannah elephants are found in 23 countries across Africa.They have large population in Kenya,Botswana
+        Namibia,Tanzania,South Africa ,Zambia, and Zimbabwe.
+        The IUCN classifies the African savannah elephant as endangered .Thus means it is at a very high risk of extinction
+        in the wild.Their numbers are also decreasing.These elephants are poached for their ivory and their natural habitats are 
+        converted into agricultural land and infrastructure by expanding human populations.
+        IFAW is working to protect African Savannah elephants and conserve their remaining habitat through our Room to Room initiative
+    </p>
+</div></div></div></td></tr></table></main>
+    <footer><p>
+        Lets work to conserve wildlife
+    </p></footer>
+    </body>
+    </html>
